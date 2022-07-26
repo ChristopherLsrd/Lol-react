@@ -1,4 +1,4 @@
-interface IChamps {
+export default interface IChamps {
     championId: number,
     championLevel: number,
     championPoints: number,
