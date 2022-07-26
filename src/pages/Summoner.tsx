@@ -3,6 +3,7 @@ import LOLUserNameContext from "../context/LOLUserNameContext";
 import lolLogo from "../assets/img/lol-logo.png";
 import Card from "../components/Card";
 import fetchChampsFromUser from "../api/lol-api-champs";
+import IChamps from "../interface/IChamps";
 
 const Summoner = () => {
   const [LOLuser] = useContext(LOLUserNameContext);
