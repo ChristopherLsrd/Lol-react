@@ -1,0 +1,9 @@
+@font-face {
+    font-family: LOL_font_regular;
+    src: url(../../assets/fonts/FrizQuadrata/FrizQuadrataRegular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: LOL_font_bold;
+    src: url(../../assets/fonts/FrizQuadrata/FrizQuadrataBold.otf) format("opentype");
+}

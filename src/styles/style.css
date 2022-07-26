@@ -1,0 +1,121 @@
+@import './fonts/FrizQuadrata.css';
+
+.hero-foot,
+.hero-head {
+    background-color: #D0A85B;
+    /*text-align: right;
+    padding-right: 2%;*/
+
+
+
+}
+
+.header-logo {
+    border: 2px solid #D0A85B;
+    background-color: #fff;
+    position: relative;
+    width: 15%;
+    padding: 0 2%;
+    justify-content: center;
+    text-align: center;
+    font-size: x-small;
+}
+
+.title,
+.header-logo p,
+figure p,
+progress {
+    color: #C38f2D;
+    font-family: LOL_font_bold;
+
+}
+
+
+.button {
+    background-color: #D0A85B;
+
+
+}
+
+input {}
+
+.columns .field {
+
+    /* border: 1px solid red;*/
+}
+
+.card-footer {
+    background-color: rgba(91, 198, 227, 0.5)
+}
+
+.card figure:hover {
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.card figure:hover div {
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+.card figure div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: white;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    opacity: 0;
+    transform: scaleY(0);
+    transition: 0.3s;
+}
+
+.card-image {
+    height: 20%
+}
+
+progress {
+    text-align: center;
+    height: 1.5em;
+    width: 100%;
+    -webkit-appearance: none;
+    border: none;
+
+    /* Set the progressbar to relative */
+    position: relative;
+}
+
+progress:before {
+    content: attr(data-label);
+    font-size: 0.8em;
+    vertical-align: 0;
+
+    /*Position text over the progress bar */
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.form-username {
+    display: inherit;
+}
+
+.error {
+    text-align: center;
+}
+
+.header-summoner {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.header-summoner>p {
+    margin-right: 5%;
+}
